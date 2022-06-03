@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      class="icon"
+      rel="icon"
+      href="https://yousuftoday.com/images/yousuf.png"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <meta
+      name="google-site-verification"
+      content="lvHGex4D2SejUw_tFl6g8x-GarjhQaNQqic-KlzX-0k"
+    />
+    <title>Contact Form</title>
+  </head>
+
+  <body>
+    <h1>Yousuf Today - Contact Form</h1>
+    <div class="container">
+      <form action="https://formspree.io/f/mnqwgaaw" method="POST">
+        <label for="fname">Your Name</label>
+        <input
+          type="text"
+          name="Name"
+          autofocus
+          required
+          placeholder=" Enter your full name.."
+        />
+
+        <label for="lname">Your Mail Address</label>
+        <input
+          type="email"
+          name="Mail"
+          autofocus
+          required
+          placeholder=" Enter your mail address..."
+        />
+
+        <label for="subject">Your Message</label>
+        <textarea
+          id="subject"
+          name="Message"
+          autofocus
+          required
+          placeholder=" Write something.."
+          style="height: 200px"
+        ></textarea>
+
+        <input type="submit" value="Send" />
+        <a class="link" href="https://yousuftoday.com"> Back to Home </a>
+      </form>
+    </div>
+  </body>
+</html>
